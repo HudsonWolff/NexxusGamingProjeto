@@ -1,6 +1,7 @@
 import "./App.css";
 import './animation.css'
 import About from "./components/About";
+import BackgroundAnimated from "./components/BackgroundAnimated";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Products from "./components/Products";
@@ -21,10 +22,11 @@ function App() {
         width: "100vw",
         minHeight:"100vh",
         gap: "2rem",
-       backgroundColor:'black',
-       
+        backgroundColor:"black",
+        zIndex:"50"       
       }}
     >
+      <BackgroundAnimated/>
       <Header />
       <About/>
       <Products/>

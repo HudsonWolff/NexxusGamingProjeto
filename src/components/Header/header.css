@@ -13,6 +13,7 @@ header {
   &:hover {
     background-color: #000000;
     color: #ff1493;
+    
   }
 
   > img {
@@ -35,13 +36,14 @@ header {
           text-decoration: none;
           font-size: 2rem;
           color: #ffffff;
-
+          cursor: url("src/assets/raio-de-trovao.png") , pointer;
           &:hover {
             color: #f10808;
+           
           }
 
           &::after {
-            content: '';
+            content: "";
             position: absolute;
             left: 0;
             bottom: 0;
