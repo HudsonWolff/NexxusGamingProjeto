@@ -1,0 +1,62 @@
+#about-section{
+background-color: black;
+
+
+}
+#about-div{
+    margin-top: 5rem;
+   width: 50vw;
+    align-items: center;
+    color: red;
+  
+    
+
+}
+
+#h2-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 5rem;
+    animation: brilharTexto 1s infinite;
+}
+#p-about{
+   
+    align-items: center;
+    display: flex;
+ font-size: 2rem;
+    align-items: center;
+
+
+}
+
+
+
+#about-div img {
+    width: 500px;
+    margin-right: 10px; 
+    animation: brilhar 1s infinite;
+    &:hover{
+        scale:1.1;
+        box-shadow: #a700ea 4rem 1rem 1rem 0.5rem;
+      }
+
+    }
+
+    #aboutBtn{
+        background-color: black;
+        color: red;
+        border: 1px solid blueviolet;
+        &:hover{
+            scale:1.1;
+            background-color:rgb(17, 10, 16);
+            font-weight: bold;
+            color: rgb(162, 0, 255);
+            box-shadow: #a700ea 4rem 1rem 1rem 0.5rem;
+          
+          }
+
+
+    }
+    

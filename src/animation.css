@@ -1,0 +1,40 @@
+@keyframes mover{
+    0%{
+        transform: translateY(0);
+    }
+    
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translate(0);
+    }
+
+
+}
+
+@keyframes brilhar{
+0%{
+    box-shadow: 0 0 10px #c907ff;
+}
+50%{
+    box-shadow: 0 0 20px #000000;
+}
+100%{
+    box-shadow: 0 0 30px #af03ff;
+}
+
+}
+
+@keyframes brilharTexto{
+    0%{
+        text-shadow: 1px 2px 1px black,0 0 5px #d817ff;
+    }
+    50%{
+        text-shadow: 1px 2px 1px black,0 0 20px #7315df,0 0 30px #ffd700;
+    }
+    100%{
+        text-shadow: 1px 2px 1px black,0 0 5px #ffd700;
+    }
+    
+    }
