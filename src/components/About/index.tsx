@@ -9,20 +9,22 @@ function About() {
         </h2>
 
         <p id="p-about" className="p-default">
-          Bem-vindo à Nexxus Gaming Center, sua fonte definitiva de periféricos de
-          informática para os aficionados por jogos. Nós entendemos a
+          Bem-vindo à Nexxus Gaming Center, sua fonte definitiva de periféricos
+          de informática para os aficionados por jogos. Nós entendemos a
           importância de ter os melhores equipamentos para elevar sua
           experiência de jogo a novos patamares, e é por isso que nos dedicamos
           a fornecer uma ampla seleção de produtos de alta qualidade.
         </p>
 
-        <div id="img-about" className="img-div" >
-          <img src="src\assets\pc game.jpg" alt="" />
+        <div id="img-about" className="img-div">
+          <img
+            src="nexxus-gaming-projeto.vercel.app\src\assets\pc game.jpg"
+            alt=""
+          />
           <img src="src\assets\teclado.webp" alt="" />
         </div>
 
         <p id="p-about" className="p-default">
-          
           Na Gamer's Nexus, não apenas oferecemos uma variedade de teclados,
           mouses, headsets e outros acessórios, mas também garantimos que cada
           item em nosso estoque seja cuidadosamente selecionado para atender às
@@ -32,17 +34,15 @@ function About() {
           desempenho máximo.
         </p>
 
-        <div id="img-about2"className="img-div" >
+        <div id="img-about2" className="img-div">
           <img src="src\assets\setup.jpg" alt="" />
           <img src="src\assets\monitor samurai.jpg" alt="" />
         </div>
-
-
       </div>
 
-
-      <button id="aboutBtn" className="button-default">QUER SABER MAIS SOBRE NÓS ? CLIQUE AQUI</button>
-
+      <button id="aboutBtn" className="button-default">
+        QUER SABER MAIS SOBRE NÓS ? CLIQUE AQUI
+      </button>
     </section>
   );
 }

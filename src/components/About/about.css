@@ -18,7 +18,7 @@ background-color: black;
     align-items: center;
     justify-content: center;
     color: red;
-    font-size: 5rem;
+    font-size: 4rem;
     animation: brilharTexto 1s infinite;
 }
 #p-about{
